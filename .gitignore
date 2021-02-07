@@ -2,10 +2,13 @@
 
 # dependencies
 /node_modules
-/src-old
-/src-development
 /.pnp
 .pnp.js
+/src-development
+/src-old
+/.netlify
+/build
+eslintcache
 
 # testing
 /coverage
@@ -23,6 +26,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Local Netlify folder
-.netlify
